@@ -27,7 +27,13 @@ Rendering HTML and Routing [ Hello Flash walk through ] links
 Create new Contact page.  
 Create Base.html to avoid duplicate of html code through pages - Template Inheritance  
 Create new Careers page with block elements to test update of content to all pages  
-Styling with the help of Bootstrap themes [ https://startbootstrap.com/ ]
+Styling with the help of Bootstrap themes [ https://startbootstrap.com/ ]  
+Create Static folder for files that don't change [ JavaScript, image files, CSS files ]  
+Through VS Code Terminal change directory path to static  
+Terminal 'wget' command to download and unpack bootstrap zip file  
+Unzip bootstrap file - get clean-blog template  
+Extract CSS, IMG, JS, Mail, SCSS and Vendor folders, delete other + zip  
+Use body code from bootstrap template and import in base.html, adjust with url_for function  
 
 
 ## Gitpod Reminders
