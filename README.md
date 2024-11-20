@@ -34,6 +34,7 @@ Terminal 'wget' command to download and unpack bootstrap zip file
 Unzip bootstrap file - get clean-blog template  
 Extract CSS, IMG, JS, Mail, SCSS and Vendor folders, delete other + zip  
 Use body code from bootstrap template and import in base.html, adjust with url_for function  
+Updating code with custom details/elements  
 
 
 ## Gitpod Reminders
