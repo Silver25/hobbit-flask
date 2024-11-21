@@ -39,6 +39,7 @@ Generate information inside Python view function and inject it into a HTML templ
 Add JSON file with data for frontend  
 Filling JSON file with data and passing to HTML-frontend  
 Using features of the Jinja templating language in creating loops  
+Advanced routing features in Flask and creating template for each member  
 
 
 ## Gitpod Reminders
