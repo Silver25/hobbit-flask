@@ -37,6 +37,8 @@ Use body code from bootstrap template and import in base.html, adjust with url_f
 Updating code with custom details/elements  
 Generate information inside Python view function and inject it into a HTML template - H2 tags/heading  
 Add JSON file with data for frontend  
+Filling JSON file with data and passing to HTML-frontend  
+Using features of the Jinja templating language in creating loops  
 
 
 ## Gitpod Reminders
