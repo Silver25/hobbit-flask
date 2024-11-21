@@ -1,8 +1,9 @@
 import os
+import json   # import the JSON library, for passing the data that's coming in as JSON
 from flask import Flask, render_template
 
-
-app = Flask(__name__)   # 2 blank lines separate each function to keep it PEP8 compliant
+###  2 blank lines separate each function to keep it PEP8 compliant
+app = Flask(__name__)
 
 
 @app.route("/")   # decorator
@@ -11,18 +12,21 @@ def index():
 
 
 @app.route("/about")
-def about():
-    return render_template("about.html", page_title="About", list_of_numbers=[1, 2, 3])   # return the HTML template, and insert Heading in <H2> tags
+def about():   # return the HTML template, and insert Heading in <H2> tags
+    data = []   # initialize an empty array or list for Python to be able to open the JSON file in order to read it
+    with open("data/company.json", "r") as json_data:
+        data = json.load(json_data)
+    return render_template("about.html", page_title="About", company=data)
 
 
 @app.route("/contact")
-def contact():
-    return render_template("contact.html", page_title="Contact")   # return the HTML template, and insert Heading in <H2> tags
+def contact():   # return the HTML template, and insert Heading in <H2> tags
+    return render_template("contact.html", page_title="Contact")
 
 
 @app.route("/careers")
-def careers():
-    return render_template("careers.html", page_title="Careers")   # return the HTML template, and insert Heading in <H2> tags
+def careers():   # return the HTML template, and insert Heading in <H2> tags
+    return render_template("careers.html", page_title="Careers")
 
 
 if __name__ == "__main__":
