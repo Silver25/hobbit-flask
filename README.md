@@ -35,6 +35,7 @@ Unzip bootstrap file - get clean-blog template
 Extract CSS, IMG, JS, Mail, SCSS and Vendor folders, delete other + zip  
 Use body code from bootstrap template and import in base.html, adjust with url_for function  
 Updating code with custom details/elements  
+Generate information inside Python view function and inject it into a HTML template - H2 tags/heading
 
 
 ## Gitpod Reminders

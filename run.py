@@ -12,7 +12,7 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("about.html", page_title="About")   # return the HTML template, and insert Heading in <H2> tags
+    return render_template("about.html", page_title="About", list_of_numbers=[1, 2, 3])   # return the HTML template, and insert Heading in <H2> tags
 
 
 @app.route("/contact")
