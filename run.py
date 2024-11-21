@@ -12,17 +12,17 @@ def index():
 
 @app.route("/about")
 def about():
-    return render_template("about.html")   # return the HTML template
+    return render_template("about.html", page_title="About")   # return the HTML template, and insert Heading in <H2> tags
 
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")   # return the HTML template
+    return render_template("contact.html", page_title="Contact")   # return the HTML template, and insert Heading in <H2> tags
 
 
 @app.route("/careers")
 def careers():
-    return render_template("careers.html")   # return the HTML template
+    return render_template("careers.html", page_title="Careers")   # return the HTML template, and insert Heading in <H2> tags
 
 
 if __name__ == "__main__":
