@@ -30,8 +30,10 @@ Create new Careers page with block elements to test update of content to all pag
 Styling with the help of Bootstrap themes [ https://startbootstrap.com/ ]  
 Create Static folder for files that don't change [ JavaScript, image files, CSS files ]  
 Through VS Code Terminal change directory path to static  
-Terminal 'wget' command to download and unpack bootstrap zip file  
-Unzip bootstrap file - get clean-blog template  
+Terminal 'wget' command to download and unpack bootstrap zip file:  
+[ wget https://github.com/StartBootstrap/startbootstrap-clean-blog/archive/refs/tags/v5.0.10.zip ]  
+Unzip bootstrap file - get clean-blog template:  
+[ https://github.com/StartBootstrap/startbootstrap-clean-blog/tree/v5.0.10 ]  
 Extract CSS, IMG, JS, Mail, SCSS and Vendor folders, delete other + zip  
 Use body code from bootstrap template and import in base.html, adjust with url_for function  
 Updating code with custom details/elements  
@@ -40,6 +42,7 @@ Add JSON file with data for frontend
 Filling JSON file with data and passing to HTML-frontend  
 Using features of the Jinja templating language in creating loops  
 Advanced routing features in Flask and creating template for each member  
+Creating A Form In A Template [ bootstrap example - "clean-blog" 5.0.10 template ]  
 
 
 ## Gitpod Reminders
