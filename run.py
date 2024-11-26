@@ -1,6 +1,6 @@
 import os
 import json   # import the JSON library, for passing the data that's coming in as JSON
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 ###  2 blank lines separate each function to keep it PEP8 compliant
 app = Flask(__name__)
@@ -43,8 +43,12 @@ def about_member(member_name):
     return render_template("member.html", member=member)
 
 
-@app.route("/contact")
+# to start handling anything other than GET, such as POST, DELETE or PUT,
+# then we need to explicitly state that our route can accept those methods
+@app.route("/contact", methods=["GET", "POST"])
 def contact():   # return the HTML template, and insert Heading in <H2> tags
+    if request.method == "POST":
+        print(request.form)
     return render_template("contact.html", page_title="Contact")
 
 
