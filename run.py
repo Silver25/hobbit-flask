@@ -1,9 +1,13 @@
 import os
 import json   # import the JSON library, for passing the data that's coming in as JSON
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash
+if os.path.exists("env.py"):
+    import env
+
 
 ###  2 blank lines separate each function to keep it PEP8 compliant
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 
 
 @app.route("/")   # route decorator and view
@@ -48,7 +52,8 @@ def about_member(member_name):
 @app.route("/contact", methods=["GET", "POST"])
 def contact():   # return the HTML template, and insert Heading in <H2> tags
     if request.method == "POST":
-        print(request.form)
+        flash("Thanks {}, we have received your msg!".format(
+            request.form.get("name")))
     return render_template("contact.html", page_title="Contact")
 
 

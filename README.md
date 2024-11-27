@@ -43,6 +43,8 @@ Filling JSON file with data and passing to HTML-frontend
 Using features of the Jinja templating language in creating loops  
 Advanced routing features in Flask and creating template for each member  
 Creating A Form In A Template [ bootstrap example - "clean-blog" 5.0.10 template ]  
+Creating new env.py file with credentials for form  
+Adding flashed messages to work with Flask  
 
 
 ## Gitpod Reminders
