@@ -1,12 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) template
 
-Welcome Silvio Martinec,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-------
 
 ## Release History / Commits
 
@@ -46,7 +39,11 @@ Creating A Form In A Template [ bootstrap example - "clean-blog" 5.0.10 template
 Creating new env.py file with credentials for form  
 Adding flashed messages to work with Flask  
 Installed Heroku to activate command-line interface [ the Heroku toolbelt ]  
-Login to Heroku over the CLI with username and API key instead of pwd - because of MFA on account.  
+Login to Heroku over the CLI with username and API key instead of pwd - because of MFA on account  
+Push Flask code content to Heroku [ https://hobbit-flasky-c4e7436c2108.herokuapp.com/ ]  
+Creating the Procfile, a Heroku-specific type of file that tells Heroku how to run the project,  
+.. typing in Terminal: "echo web: python run.py > Procfile"  
+
 
 
 ## Gitpod Reminders
