@@ -47,7 +47,7 @@ Creating the Procfile, a Heroku-specific type of file that tells Heroku how to r
 Creating variables for App on Heroku, change my secret key  
 Starting GitHub Deployment method connecting to repository and enabling Auto Deploys  
 Removing Heroku remote, so that only GitHub is connected to the project  
-
+Using command "git push origin main"  
 
 
 ## Gitpod Reminders

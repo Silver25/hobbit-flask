@@ -57,9 +57,10 @@ def contact():   # return the HTML template, and insert Heading in <H2> tags
     return render_template("contact.html", page_title="Contact")
 
 
-@app.route("/careers")
-def careers():   # return the HTML template, and insert Heading in <H2> tags
-    return render_template("careers.html", page_title="Careers")
+@app.route("/summary")
+def summary():   # return the HTML template, and insert Heading in <H2> tags
+    return render_template("summary.html", page_title="Summary")
+
 
 
 if __name__ == "__main__":
