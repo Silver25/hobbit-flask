@@ -45,6 +45,8 @@ Advanced routing features in Flask and creating template for each member
 Creating A Form In A Template [ bootstrap example - "clean-blog" 5.0.10 template ]  
 Creating new env.py file with credentials for form  
 Adding flashed messages to work with Flask  
+Installed Heroku to activate command-line interface [ the Heroku toolbelt ]  
+Login to Heroku over the CLI with username and API key instead of pwd - because of MFA on account.  
 
 
 ## Gitpod Reminders
