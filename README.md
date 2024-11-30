@@ -40,10 +40,13 @@ Creating new env.py file with credentials for form
 Adding flashed messages to work with Flask  
 Installed Heroku to activate command-line interface [ the Heroku toolbelt ]  
 Login to Heroku over the CLI with username and API key instead of pwd - because of MFA on account  
+Starting "HEROKU Git" Deployment method with CLI push content to Heroku
 Push Flask code content to Heroku [ https://hobbit-flasky-c4e7436c2108.herokuapp.com/ ]  
 Creating the Procfile, a Heroku-specific type of file that tells Heroku how to run the project,  
 .. typing in Terminal: "echo web: python run.py > Procfile"  
 Creating variables for App on Heroku, change my secret key  
+Starting GitHub Deployment method connecting to repository and enabling Auto Deploys  
+Removing Heroku remote, so that only GitHub is connected to the project  
 
 
 
