@@ -43,6 +43,7 @@ Login to Heroku over the CLI with username and API key instead of pwd - because 
 Push Flask code content to Heroku [ https://hobbit-flasky-c4e7436c2108.herokuapp.com/ ]  
 Creating the Procfile, a Heroku-specific type of file that tells Heroku how to run the project,  
 .. typing in Terminal: "echo web: python run.py > Procfile"  
+Creating variables for App on Heroku, change my secret key  
 
 
 

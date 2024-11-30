@@ -1,11 +1,11 @@
 import os
-import json   # import the JSON library, for passing the data that's coming in as JSON
+import json   # library, for passing the data that's coming in as JSON
 from flask import Flask, render_template, request, flash
 if os.path.exists("env.py"):
     import env
 
 
-###  2 blank lines separate each function to keep it PEP8 compliant
+#  2 blank lines separate each function to keep it PEP8 compliant
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY")
 
